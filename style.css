@@ -1,0 +1,50 @@
+body html {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+.top-cover {
+    margin: 0%;
+}
+
+.cover-image {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background: url(images/donation13.jpg);
+    background-size: cover;
+
+
+}
+
+.cover-image-text {
+
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#cover-heading {
+    font-size: 50px;
+}
+
+#cover-paragraph {
+    font-size: 20px;
+
+    background: rgba(0, 0, 0, 0.295);
+    border-radius: 9px;
+
+}
+
+.donate-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 16, 16), #FF5958);
+    background-color: #FF5959;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
