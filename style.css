@@ -198,10 +198,11 @@ body html {
     margin: 20px;
 }
 
-.food-family {
+.donation-types {
     margin-top: 70px;
     padding: 50px;
     display: flex;
+    justify-content: space-evenly;
 
 }
 
