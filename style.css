@@ -39,7 +39,7 @@ body html {
 
 #cover-heading {
     font-size: 50px;
-    margin: 50px;
+    m
 }
 
 #cover-paragraph {
@@ -336,5 +336,43 @@ body html {
 
 .whole-div {
     display: inline-flex;
+
+}
+
+.money-spend-ration-all {
+    margin-top: 100px;
+    margin-right: 60px;
+}
+
+.get-updates {
+    text-align: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.get-updates h1 {
+    font-size: 40px;
+    text-shadow: 8px 8px 10px gray;
+}
+
+.get-updates p {
+    margin-top: 18px;
+    padding: 10px;
+
+
+}
+
+.man-walking {
+    background-repeat: no-repeat;
+
+}
+
+.email-subscribe {
+    background-color: #ff59593b;
+    border-width: 700px;
+    background-size: 70px;
+    width: 900px;
 
 }
