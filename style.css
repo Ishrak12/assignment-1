@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body html {
     font-family: 'Poppins', sans-serif;
     height: 100%;
@@ -13,6 +19,10 @@ body html {
     overflow: hidden;
     background: url(images/donation13.jpg);
     background-size: cover;
+    /* <!-- background: rgb(0, 0, 0);  */
+    background-color: linear-gradient(0deg, rgba(0, 0, 0, 1) 4%, rgba(255, 255, 255, 1) 100%);
+
+
 
 
 }
@@ -29,6 +39,7 @@ body html {
 
 #cover-heading {
     font-size: 50px;
+    margin: 50px;
 }
 
 #cover-paragraph {
@@ -36,6 +47,7 @@ body html {
 
     background: rgba(0, 0, 0, 0.295);
     border-radius: 9px;
+    margin: 30px;
 
 }
 
@@ -47,17 +59,20 @@ body html {
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: 700;
+    margin-left: 0px;
 }
 
 #donate-today {
     font-size: 50px;
     text-align: center;
+    margin-top: 50px;
 }
 
 #donate-today-paragraph {
     position: relative;
     font-size: 20px;
     text-align: center;
+    margin: 30px;
 
 }
 
@@ -133,25 +148,45 @@ body html {
 
 .other-amount {
     border: none;
-    margin-left: 600px;
-    border-bottom: 1px solid #DADADA;
-    padding: 5px 10px;
+    margin-left: 550px;
+    border-bottom: none padding: 5px 10px;
     outline: none;
+    font-size: 20px;
+
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease;
+    text-indent: -100%;
+    opacity: 1;
+}
+
+.donate-button-2 {
+    text-decoration: none;
+}
+
+.donation-plan {
+    width: 50%;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 40px;
+    font-weight: 400;
+
+}
 
 
-    [placeholder]:focus::-webkit-input-placeholder {
-        transition: text-indent 0.4s 0.4s ease;
-        text-indent: -100%;
-        opacity: 1;
-    }
+.donate-2 {
 
-    .donate-button {
-        text-decoration: none;
-        background-image: linear-gradient(rgb(255, 16, 16), #FF5958);
-        background-color: #FF5959;
-        color: aliceblue;
-        padding: 10px 20px;
-        border-radius: 5px;
-        font-weight: 700;
+    margin: 40px;
+    margin-bottom: 150px;
+}
 
-    }
+.donation-plan h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.donation-plan p {
+    font-size: 18px;
+    margin: 25px;
+}
